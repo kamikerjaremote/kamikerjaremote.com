@@ -9,9 +9,6 @@ node_modules
 /build
 /static/css/style.min.css
 /static/css/tailwind.min.css
-/static/contributor/list.json
-/static/plugin/list.json
-/static/theme/list.json
 /static/*.css.map
 /static/*.js.map
 
