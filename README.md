@@ -7,10 +7,9 @@ Kami Kerja Remote adalah sebuah platform yang menyediakan informasi lowongan ker
 ## 🚀 Installasi
 
 ### 👨‍💻 Manual
-1. Ganti nama : `.env-sample` to `.env`
-2. Install paket npm : `npm i`
-3. Bangun asset : `grunt build`
-4. Jalankan server : `npm run dev`
+1. Install paket npm : `pnpm i`
+2. Bangun asset : `pnpx grunt build`
+3. Jalankan server : `pnpm run dev`
 
 ## ⚒️ Perpusatakaan
 - [GruntJS](https://gruntjs.com/)
