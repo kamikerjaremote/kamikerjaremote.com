@@ -2,6 +2,8 @@
 
 Kami Kerja Remote adalah sebuah platform yang menyediakan informasi lowongan kerja remote di Indonesia. Kami Kerja Remote dibangun menggunakan SvelteKit dan TailwindCSS.
 
+![](screenshot.png)
+
 ## 🚀 Installasi
 
 ### 👨‍💻 Manual
