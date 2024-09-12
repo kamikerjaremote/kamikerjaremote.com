@@ -22,9 +22,9 @@ jobs:
 
       - name: Build 🔧
         run: |
-          npm ci
-          npx grunt
-          npm run build
+          pnpm ci
+          pnpx grunt
+          pnpm run build
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
