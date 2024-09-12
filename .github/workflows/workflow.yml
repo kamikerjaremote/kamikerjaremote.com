@@ -20,17 +20,11 @@ jobs:
       - name: Checkout 🛎️
         uses: actions/checkout@v3
 
-      - name: Install pnpm 📦
-        uses: pnpm/action-setup@v4
-        with:
-          version: 9
-          run_install: false
-
       - name: Build 🔧
         run: |
-          pnpm install
-          pnpx grunt
-          pnpm run build
+          npm ci
+          npx grunt
+          npm run build
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
