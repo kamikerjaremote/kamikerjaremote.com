@@ -28,7 +28,7 @@ jobs:
 
       - name: Build 🔧
         run: |
-          pnpm ci
+          pnpm install
           pnpx grunt
           pnpm run build
 
