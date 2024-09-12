@@ -1,10 +1,16 @@
-name: Build and Deploy to GitHub Pages
+name: Build and Deploy
 
 on:
   push:
     branches:
       - master
-      - feature/github-page
+      - feature/page
+
+permissions:
+  contents: write
+
+env:
+  IMAGE_NAME: ${{ github.repository }}
 
 jobs:
   build-and-deploy:
@@ -14,7 +20,13 @@ jobs:
       - name: Checkout 🛎️
         uses: actions/checkout@v3
 
+      - name: Build 🔧
+        run: |
+          npm ci
+          npx grunt
+          npm run build
+
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: .
+          folder: build
