@@ -1,23 +1,30 @@
 export default {
-  title: "WP-ID",
-  description: "Komunitas WordPress Indonesia | Kabar Terbaru, Kegiatan dan Panduan WordPress",
-  APIURL: "https://wp-id.org/wp-json/wp/v2",
+  title: "Kami Kerja Remote (KKR)",
+  description: "Komunitas Kerja Remote (KKR) Indonesia",
   socials: [
     {
       icon: "fab fa-facebook",
-      url: "https://www.facebook.com/groups/wp.indonesia/"
+      url: "https://www.facebook.com/groups/208155516383522"
     },
     {
       icon: "fab fa-github",
-      url: "https://github.com/wp-id/"
+      url: "https://github.com/kamikerjaremote"
     },
     {
-      icon: "fab fa-gitlab",
-      url: "https://gitlab.com/wp-id/"
+      icon: "fab fa-linkedin",
+      url: "https://www.linkedin.com/groups/14285548/"
     },
     {
-      icon: "fab fa-slack",
-      url: "https://chat.wp-id.org/"
-    }
+      icon: "fab fa-instagram",
+      url: "https://www.instagram.com/kamikerjaremoteid/"
+    },
+    {
+      icon: "fab fa-youtube",
+      url: "https://www.youtube.com/channel/UCoQtbTYlnhkia-9FUtr1Ulw"
+    },
+    {
+      icon: "fab fa-tiktok",
+      url: "https://www.tiktok.com/@kkremoteid"
+    },
   ]
 }
