@@ -13,7 +13,7 @@
         <a href="{base}" class="flex items-center"
            on:click={() => { ActiveMenu = `${base}/` }}
         >
-            <img src="img/logo.jpeg" class="w-8" alt="Logo">
+            <img src="{base}/img/logo.jpeg" class="w-8" alt="Logo">
             <span class="pl-2 -mt-0.5  self-center text-xl font-semibold whitespace-nowrap dark:text-white">{title}</span>
         </a>
         <div class="flex md:order-2">

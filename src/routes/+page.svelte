@@ -1,4 +1,5 @@
 <script>
+import {base} from "$app/paths";
 import config from "../config.js";
 </script>
 
@@ -6,7 +7,7 @@ import config from "../config.js";
     <div class="py-6">
         <h1 class="text-3xl font-bold">{ config.description }</h1>
         <div class="blog-content pt-4 text-lg prose">
-            <img src="/img/cover.jpg" alt="Kami Kerja Remote (KKR)">
+            <img src="{base}/img/cover.jpg" alt="Kami Kerja Remote (KKR)">
 
             <p>Komunitas <strong>Kami Kerja Remote (KKR)</strong> menjadi wadah penting bagi para pekerja remote untuk saling berbagi wawasan dan mendukung satu sama lain. Berikut ini adalah beberapa aspek penting yang menjelaskan lebih banyak tentang KKR:</p>
             <h3 id="1-tujuan-dan-visi-">1. <strong>Tujuan dan Visi</strong></h3>
